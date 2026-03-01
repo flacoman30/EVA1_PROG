@@ -19,9 +19,9 @@ class Persona {
    public Persona(String nombre, String apellidos, int edad, String genero, String curp) {
       this.nombre = nombre;
        this.apellidos = apellidos;
-         setEdad(edad);      // usamos el setter para validar
+         setEdad(edad);    
           this.genero = genero;
-            setCurp(curp);      // usamos el setter para validar
+            setCurp(curp);     
     }
           public String getNombre() { return nombre; }
         public String getApellidos() { return apellidos; }
@@ -46,4 +46,5 @@ class Persona {
                  "Edad: " + edad +
                   "Género: " + genero +
                     "CURP: " + curp;
+
     }}
